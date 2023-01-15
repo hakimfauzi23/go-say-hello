@@ -5,6 +5,6 @@ func SayHello() string {
 }
 
 func SayHelloTo(name string) string {
-	greet := "Hello" + name
+	greet := "Hello " + name
 	return greet
 }
